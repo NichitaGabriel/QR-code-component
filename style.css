@@ -1,0 +1,79 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin-top: 13rem;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+
+	background-color: hsl(212, 45%, 89%);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-card {
+	background-color: hsl(0, 0%, 100%);
+
+	width: 350px;
+	margin-top: 14rem;
+	padding: 20px 0px 0px 0px;
+	border-radius: 18px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.qr-card img {
+	width: 300px;
+	border-radius: 10px;
+}
+
+.qr-code-body {
+	width: 300px;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-code-title {
+	color: hsl(218, 44%, 22%);
+	height: 80px;
+	font-size: 22px;
+	font-weight: 700;
+	width: 264px;
+}
+
+.qr-code-description {
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+	width: 250px;
+}
+
+@media only screen and (max-width: 1440px) {
+	.qr-card {
+		transform: scale(1);
+		margin-top: 15vh;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.qr-card {
+		transform: scale(0.8);
+	}
+
+	.attribution {
+		margin-top: 25vh;
+	}
+}

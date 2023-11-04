@@ -17,6 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
+
 Desktop version
 <img src="screenshots\Solution-Desktop-Version.JPG" alt="Desktop Version" width="1024"/>
 
